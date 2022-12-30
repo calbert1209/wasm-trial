@@ -4,8 +4,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fibonacci Wasm Example</title>
+  <style>
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px 16px;
+    }
+
+    td {
+      text-align: end;
+    }
+  </style>
 </head>
 <body>
+  <h1>WASM Trials</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>label</th>
+        <th>result</th>
+        <th>time</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
   <script src="index.js"></script>
 </body>
 </html>
